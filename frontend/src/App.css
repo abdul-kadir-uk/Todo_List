@@ -1,0 +1,210 @@
+/* app.css  */
+
+
+.user_png {
+  height: 1.9rem;
+  width: 1.9rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+/* Add this CSS to your App.css file */
+
+.navbar-nav .nav-link {
+  color: white !important;
+  /* Set the anchor text color to white */
+  /* You can also add other styles like font-size, padding, etc. here */
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: red !important;
+  height: 100%;
+  margin: 0;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.footer {
+  /* position: fixed; */
+  background: #333;
+  color: white;
+  margin-bottom: 0;
+  width: 100%;
+
+}
+
+
+/* .box-format {
+  height: 100vh;
+  width: 100%;
+} */
+
+/* contact */
+.contact-box {
+  width: 50%;
+  height: 60%;
+}
+
+.contact-sumbmit-btn {
+  width: 68px;
+}
+
+/* todo-list */
+.todo-list {
+  width: 50%;
+  height: 50%;
+}
+
+.add-btn {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* sign up */
+.btn-signup {
+  width: 68%;
+}
+
+.SignUp {
+  width: 50%;
+  height: 50%;
+}
+
+.btn-signin {
+  width: 68%;
+}
+
+#description,
+#tbody {
+  display: none;
+}
+
+#btn-add {
+  display: none;
+}
+
+/* todo-body */
+.todo-body {
+  height: 70%;
+  padding-bottom: 3rem;
+}
+
+
+
+.Todo-card {
+  width: 50%;
+  height: 50%;
+  padding: 2px;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.todo-head {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110vh;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.addtodobtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.addtodobtn a:hover {
+  background-color: white;
+  color: black;
+}
+
+.update-delete {
+  padding: 0;
+}
+
+.delete {
+  width: 100;
+}
+
+.icons {
+  height: 2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.icons:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.todo {
+  position: relative;
+}
+
+.update-box {
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  position: fixed;
+  background-color: green;
+
+}
+
+
+#u-title {
+  width: 29rem;
+  font-weight: bolder;
+}
+
+#u-body {
+  width: 29rem;
+}
+
+@media (max-width: 576px) {
+
+  #u-title,
+  #u-body {
+    width: 100% !important;
+  }
+}
+
+#parent-update {
+  display: none;
+}
